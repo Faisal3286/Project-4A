@@ -4,10 +4,16 @@ body {
   background: url('https://media.gettyimages.com/vectors/blurred-gradient-background-for-template-brochure-flyer-comic-card-vector-id1155187621?s=2048x2048');
   background-attachment: fixed;
 }
+.header{
+  text-align: center;
+   background-color: forestgreen;
+   color: white;
+   font-size: 40px;
+}
 .bg-img{
   height: 80vh;
   width: 70vw;
-  margin: 5rem auto;
+  margin: 50px auto;
   background: url('./assets/Img_1.png');
   background-size: cover;
   position: relative;
@@ -17,11 +23,10 @@ body {
 .road {
   
   height: 140px;
-  width: 500%;
+  width:1000%;
   background: url('./assets/Img_02.png');
   position: absolute;
   bottom: 0px;
-  background-repeat: repeat-x;
 
 }
 .car{

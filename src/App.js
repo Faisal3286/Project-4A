@@ -33,16 +33,18 @@ function App() {
  
   return (
     <div  >
-          <div>{playState}</div>
          <div className="bg-img">
+         <div className='header'>Driving Car Animation: {playState}</div>
          <div className="road" id='Roadanimation' ref={Roadanimation}></div>
          <div className="car" ref={car}>
              <img src={Img_06}  alt='carimg'/>
          </div>
+         <div className='buttons'>
          <button onClick={ () =>{getAnimation().play()}}>Start</button>
          <button onClick={ () =>{getAnimation().pause()}}>Break</button>
          <button onClick={ () =>{getAnimation().reverse()}} >Reverse</button>
          <button  defaultValue="1"  onClick={speedUp}>IncreaseSpees</button>
+         </div>
      
     </div>
     </div>
